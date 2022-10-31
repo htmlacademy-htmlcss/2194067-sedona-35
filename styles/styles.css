@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+ body {
+  font-family: "PT Sans",
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  background-color: #F2F2F2;
+  padding: 0 40px;
+}
+
+.page-header {
+  color: #000;
+  background-color: #fff;
+}
+
+.navigation-link {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.main-index {
+  background-image: url(../images/index-background.jpg);
+  color: #000;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  padding: 1200px 485px;
+}
+
+.advantages {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-item-true_city {
+  background-color: #82B3D3;
+  color: #fff;
+}
+
+.advantages-item-small_area {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-beautiful_road {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item-few_tourists {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-devil_bridge {
+  background-color: #82B3D3;
+  color: #fff;
+}
+
+.recommendation-item-housing {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.recommendation-item-food {
+  background-color: #fff;
+}
+
+.recommendation-item-souvenirs {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.newsletter {
+  background-image: url(../images/subscribe.jpg);
+  width: 1200px;
+  height: 415px;
+  color: #fff;
+}
+
+.page-footer-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}

@@ -15,7 +15,7 @@
 }
 
  body {
-  font-family: "PT Sans",
+  font-family: "PT Sans";
   font-size: 20px;
   line-height: 24px;
   color: #000;
@@ -38,6 +38,17 @@
   text-align: center;
 }
 
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 160px;
+  height: 36px;
+  color: #FFFFFF;
+  background: #756157;
+  border-radius: 4px;
+}
+
 .main-index {
   background-image: url(../images/index-background.jpg);
   color: #000;
@@ -48,51 +59,93 @@
   padding: 1200px 485px;
 }
 
-.advantages {
+.small-town {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.cooler {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages,
+.recommendations {
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
 }
 
-.advantages-description {
+.description {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
 
-.advantages-item-true_city {
-  background-color: #82B3D3;
-  color: #fff;
+.city,
+.bridge {
+  background: #82B3D3;
 }
 
-.advantages-item-small_area {
-  background-color: rgba(131, 179, 211, 0.12);
+.road {
+  background: rgba(131, 179, 211, 0.2);
 }
 
-.advantages-item-beautiful_road {
-  background-color: rgba(131, 179, 211, 0.2);
+.food {
+  background: #FFFFFF;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.advantages-item-few_tourists {
-  background-color: rgba(131, 179, 211, 0.12);
+.hotel-search {
+  width: 1200px;
+  height: 406px;
+  background: #FFFFFF;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
 }
 
-.advantages-item-devil_bridge {
-  background-color: #82B3D3;
-  color: #fff;
+.about-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
 }
 
-.recommendation-item-housing {
-  background-color: rgba(131, 179, 211, 0.12);
+.button {
+  width: 375px;
+  height: 52px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+.field {
+  width: 452px;
+  height: 52px;
+  color: #000;
+  background: #F2F2F2;
+  border-radius: 4px 0 0 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
-.recommendation-item-food {
-  background-color: #fff;
-}
-
-.recommendation-item-souvenirs {
-  background-color: rgba(131, 179, 211, 0.12);
+.newsletter-button  {
+  background: #82B3D3;
+  border-radius: 0 4px 4px 0;
 }
 
 .newsletter {

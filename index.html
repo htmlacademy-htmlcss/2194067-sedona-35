@@ -8,7 +8,8 @@
   </head>
 
   <body>
-    <header class="page-headr">
+    <div class="container">
+    <header class="page-header">
       <img class="logo-header" src="images/logos/logo-header.svg" width="140" height="70" alt="Логотип CITY OF SEDONA">
       <nav class="navigation">
         <ul class="navigatin-list">
@@ -38,13 +39,14 @@
             </a>
           </li>
           <li class="navidation-item">
-            <button class="button">Хочу сюда</button>
+            <button class="button">Хочу сюда!</button>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="main-index">
+    <main class="main-container main-index">
       <h1 class="visually-hidden">WELCOME to the gargeos SEDONA</h1>
+      <section class="picture"></section>
 
       <!-- divider -->
 
@@ -62,7 +64,7 @@
         </ul>
         <img class="photo-city" src="images/photo-city.jpg" width="800" height="384" alt="Фото внутри городка">
         <ul class="advantages-list">
-          <li class="advantages-item-small-area">
+          <li class="advantages-item small-area">
             <h3 class="advantages-title">Небольшая площадь</h3>
             <p class="description">Все достопримечательности находятся очень близко</p>
           </li>
@@ -104,21 +106,22 @@
         </ul>
       </section>
       <section class="hotel-search">
-        <h2>Заинтересовались?</h2>
+        <h2 class="interested">Заинтересовались?</h2>
         <p class="about-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <button class="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        <button class="button btn">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
       </section>
-      <section class="newsletter">
+      <aside class="newsletter">
+      <section class="subscribe"></section>
         <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
-        <p class="about-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="about-text no-spam">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email"
             id="newsletter-email" required>
           <button class="button newsletter-button" type="submit">Подписаться
           </button>
         </form>
-      </section>
+      </aside>
     </main>
     <footer class="page-footer">
       <section class="footer-social">
@@ -143,7 +146,7 @@
       </section>
       <section class="contacts">
         <h2 class="visually-hidden">Контактный телефон</h2>
-        <a class="footer-contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
+        <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </section>
       <h3 class="footer-social">
         <a href="https://htmlacademy.ru/">
@@ -151,6 +154,7 @@
         </a>
       </h3>
     </footer>
+    </div>
   </body>
 
 </html>

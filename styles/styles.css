@@ -201,27 +201,11 @@ body {
   color: #333333;
 }
 
-.no-spam {
-  color: #fff;
-  width: 475px;
-  margin: 20px 363px 0;
-}
-
 .hotel-search {
   padding: 0;
   margin: 96px auto;
   width: 592px;
   background: #ffffff;
-}
-
-.page-footer-title {
-  display: flex;
-  width: 404px;
-  margin: 96px 398px 0;
-  padding: 0;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
 }
 
 .btn {
@@ -237,18 +221,33 @@ body {
 }
 
 .newsletter {
+  display: flex;
+  flex-direction: column;
   background-image: url(../images/subscribe.jpg);
-  color: #fff;
+  width: 684px;
+  padding: 96px 258px 104px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000;
   background-color: #fff;
-  width: 1200px;
-  height: 415px;
-  margin: 0;
+}
+
+.subscribe-to-newsletter {
+  display: flex;
+  width: 404px;
+  color: #fff;
+  padding: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 140px;
+  text-transform: uppercase;
 }
 
 .newsletter-form {
   display: flex;
   width: 684px;
-  margin: 54px 258px 104px;
 }
 
 .field {
@@ -269,6 +268,13 @@ body {
   line-height: 36px;
   width: 232px;
   height: 52px;
+  margin: 0;
+}
+
+.no-spam {
+  margin: 20px 105px 54px;
+  color: #fff;
+  width: 475px;
 }
 
 .page-footer {

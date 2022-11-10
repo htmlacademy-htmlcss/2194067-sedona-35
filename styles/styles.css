@@ -153,15 +153,29 @@ body {
 .advantages-list,
 .recommendations-list {
   display: flex;
+  flex-wrap: wrap;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.advantages-item,
-.recommendation-item {
+.advantages-item {
   margin: 0;
   width: 230px;
   padding: 92px 85px 111px 85px;
+}
+
+.recommendation-item {
+  width: 230px;
+  padding: 80px 85px 81px;
+}
+
+.advantages-title {
+  margin: 0 28px 62px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .description {
@@ -174,6 +188,7 @@ body {
 
 .city,
 .bridge {
+  color: #fff;
   background: #82b3d3;
 }
 
@@ -222,6 +237,7 @@ body {
 
 .newsletter {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   background-image: url(../images/subscribe.jpg);
   width: 684px;

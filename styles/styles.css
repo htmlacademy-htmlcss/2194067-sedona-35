@@ -19,8 +19,10 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   min-height: 100%;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   color: #000;
@@ -45,19 +47,30 @@ body {
 }
 
 .logo-header {
-  margin: 0 28px 0 70px;
   width: 140px;
+  margin-left: 70px;
 }
 
 .navigation {
   display: flex;
+  width: 892px;
+  margin: 0;
+  padding: 0;
 }
 
-.navigation-list {
+.navigatin-list {
+  display: flex;
+  flex-wrap: wrap;
   width: 339px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 16px;
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
@@ -68,8 +81,19 @@ body {
 }
 
 .navigatin-user {
-  width: 268px;
-  margin: 0 70px 0 453px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 44px;
+  min-height: 64px;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.icon {
+  padding: 22px 12px;
 }
 
 .button {
@@ -83,6 +107,8 @@ body {
   background: #756157;
   border-radius: 4px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .main-container {
@@ -201,6 +227,8 @@ body {
 }
 
 .interested {
+  width: 297px;
+  margin: 0 148px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -208,7 +236,10 @@ body {
   text-transform: uppercase;
 }
 
-.about-text {
+.best-offers {
+  width: 592px;
+  margin-top: 20px;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -217,8 +248,8 @@ body {
 }
 
 .hotel-search {
-  padding: 0;
-  margin: 96px auto;
+  padding: 96px 304px;
+  margin: 0;
   width: 592px;
   background: #ffffff;
 }
@@ -226,7 +257,7 @@ body {
 .btn {
   margin-left: 109px;
   margin-right: 109px;
-  margin-bottom: 96px;
+  margin-top: 54px;
   padding: 0;
   width: 375px;
   height: 52px;
@@ -241,34 +272,36 @@ body {
   flex-direction: column;
   background-image: url(../images/subscribe.jpg);
   width: 684px;
-  padding: 96px 258px 104px;
+  margin: 0;
+  padding: 96px 258px 104px 258px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  color: #000;
-  background-color: #fff;
+  color: #fff;
+  background-color: #000;
 }
 
 .subscribe-to-newsletter {
   display: flex;
   width: 404px;
-  color: #fff;
-  padding: 0;
+  padding: 0 140px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  margin: 0 140px;
+  margin: 0;
   text-transform: uppercase;
 }
 
 .newsletter-form {
   display: flex;
+  margin: 0;
   width: 684px;
 }
 
 .field {
   width: 452px;
   height: 52px;
+  margin: 0;
   padding: 0;
   border: 0;
   color: #000;
@@ -288,9 +321,13 @@ body {
 }
 
 .no-spam {
-  margin: 20px 105px 54px;
+  margin: 0;
+  padding: 20px 105px 54px;
   color: #fff;
   width: 475px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 .page-footer {
@@ -303,6 +340,19 @@ body {
 
 .footer-social {
   width: 142px;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-social-item {
+  width: 48px;
+  height: 40px;
 }
 
 .contacts {
@@ -319,8 +369,4 @@ body {
   line-height: 40px;
   text-decoration: none;
   color: #000;
-}
-
-.footer-social {
-  width: 115px;
 }

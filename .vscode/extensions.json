@@ -1,5 +1,7 @@
 {
   "recommendations": [
-    "EditorConfig.EditorConfig"
+    "editorconfig.editorconfig",
+    "umoxfo.vscode-w3cvalidation",
+    "Umoxfo.vscode-w3cvalidation"
   ]
 }

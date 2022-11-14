@@ -267,35 +267,45 @@ body {
 }
 
 .newsletter {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  text-align: center;
   background-image: url(../images/subscribe.jpg);
-  width: 684px;
   margin: 0;
-  padding: 96px 258px 104px 258px;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
+  padding: 96px 0 104px;
   color: #fff;
   background-color: #000;
 }
 
 .subscribe-to-newsletter {
-  display: flex;
-  width: 404px;
-  padding: 0 140px;
+  margin: 0 0 20px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  margin: 0;
   text-transform: uppercase;
+  color: #fff;
+}
+
+.no-spam {
+  margin: 0 auto 54px;
+  color: #fff;
+  width: 475px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 .newsletter-form {
   display: flex;
-  margin: 0;
+  margin: 0 auto;
   width: 684px;
+}
+
+.newsletter-button {
+  background: #82b3d3;
+  font-size: 20px;
+  line-height: 36px;
+  width: 232px;
+  height: 52px;
+  margin: 0;
 }
 
 .field {
@@ -309,25 +319,6 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-}
-
-.newsletter-button {
-  background: #82b3d3;
-  font-size: 20px;
-  line-height: 36px;
-  width: 232px;
-  height: 52px;
-  margin: 0;
-}
-
-.no-spam {
-  margin: 0;
-  padding: 20px 105px 54px;
-  color: #fff;
-  width: 475px;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
 }
 
 .page-footer {

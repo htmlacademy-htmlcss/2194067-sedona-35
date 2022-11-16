@@ -73,7 +73,7 @@ body {
 .navigation-link {
   display: block;
   padding: 20px 16px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   color: inherit;
@@ -81,6 +81,8 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
+
+
 
 .navigation-user {
   display: flex;
@@ -93,7 +95,7 @@ body {
 }
 
 .button {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -135,6 +137,7 @@ body {
   color: #000;
   background-color: #fff;
 }
+
 .welcome {
   background-image: url(../images/logos/logo-main.svg);
   background-repeat: no-repeat;
@@ -148,6 +151,34 @@ body {
   grid-row: 3 / 4;
 }
 
+.small-town-not-grandcanyon {
+  display: grid;
+  grid-template-rows: 141px 25px 116px;
+  margin: 0;
+}
+
+.small-town {
+  justify-self: center;
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cooler {
+  grid-row: 3 / 4;
+  justify-self: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0;
+}
+
+/*
 .small-town {
   width: 700px;
   font-weight: 700;
@@ -171,6 +202,162 @@ body {
   padding: 0;
   margin: 0 auto 90px;
 }
+*/
+
+
+/*Гриды*/
+
+.advantages {
+
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+}
+
+.advantages-list {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 384px 384px 384px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.advantages-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 230px;
+
+  padding: 103px 85px 111px 85px;
+  margin: 0;
+}
+
+.advantages-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  width: 175px;
+  padding: 0 28px 62px;
+  margin: 0;
+}
+
+.city {
+  grid-column: 1 / 2;
+  color: #fff;
+  background: #82b3d3;
+  padding: 92px 85px 111px 85px;
+}
+
+.photo-bridge {
+  grid-column: 1 / 3;
+  grid-row: -2 / -1;
+}
+
+.small-area {
+
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.road {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.turist {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.bridge {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  color: #fff;
+  background: #82b3d3;
+  padding: 92px 85px 111px 85px;
+}
+
+
+.recommendations {
+  margin: 0;
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.recommendations-list {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 384px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.recommendation-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding: 25px 0 30px;
+  margin: 0;
+
+}
+
+.description {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.recommendation-item {
+  margin: 0;
+  padding: 80px 85px 81px 85px;
+}
+
+
+.housing {
+  grid-column: 1 / 2;
+  align-self: center;
+}
+
+.food {
+  grid-column: 2 / 3;
+background-color: #fff;
+}
+
+.souvenirs {
+  grid-column: 3 / 4;
+  align-self: center;
+
+}
+
+
+
+
+/*
 
 .advantages,
 .recommendations {
@@ -236,6 +423,8 @@ body {
 .food {
   background: #ffffff;
 }
+
+*/
 
 .interested {
   width: 297px;
